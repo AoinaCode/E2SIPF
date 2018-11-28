@@ -1,4 +1,4 @@
-import E2SIFP
+import E2SIPF
 import numpy as np
 from PIL import Image
 def func(ui):
@@ -7,7 +7,7 @@ def func(ui):
     ui.setOutputImag(image)
     
 if __name__=='__main__':
-    ui = E2SIFP.mainUi('Image Conv Gray')
+    ui = E2SIPF.mainUi('Image Conv Gray')
     ui.setFunc(func)
     ui.setFuncPara(ui)
     ui.show()
